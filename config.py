@@ -28,7 +28,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filestore34")
 #Shortner (token system) 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "tnshort.net/")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "28b13d9bb65763440a73ae4a280d4e1be4cc4ef1")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/mr_v_bots/1890") 
 
